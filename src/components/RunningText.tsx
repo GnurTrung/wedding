@@ -1,6 +1,5 @@
 import Image from "next/image";
 import React, { lazy } from "react";
-import Marquee from "react-fast-marquee";
 /* const Marquee = lazy(() => import("react-fast-marquee")); */
 
 const RunningText = () => {
