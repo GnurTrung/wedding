@@ -53,7 +53,7 @@ export default function Home() {
             <Toaster />
             <Header />
             <FirstPage />
-            {/* <RunningText /> */}
+            <RunningText />
             <SecondPage />
             <Footer />
           </ApplicationProvider>

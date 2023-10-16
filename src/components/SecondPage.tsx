@@ -5,6 +5,7 @@ import CustomProgressBar from "./CustomProgressBar";
 import { useApplication } from "@/context/useApplication";
 import { formatWallet } from "@/utils";
 import { toast } from "react-hot-toast";
+import Link from "next/link";
 
 const SecondPage = () => {
   const { setOpenModalRarity, setOpenWallet, handleDisconnectSei } =
@@ -165,41 +166,31 @@ const SecondPage = () => {
         <div className="flex justify-center text-font-base text-[25px] mb-5">
           Thành phố Từ Sơn, Tỉnh Bắc Ninh
         </div>
-        <div className=" flex justify-center">
+        <div className="flex justify-center">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d930.2967299559931!2d105.99318347977983!3d21.144958317746937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313509b5232ed8f7%3A0x2644dd1605ee0cf5!2zU8OibiBW4bqtbiDEkOG7mW5nIEjhu5NpIFF1YW4!5e0!3m2!1sen!2s!4v1697385084839!5m2!1sen!2s"
             width="1300"
             height="450"
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
-            className="mb-24 rounded-b-xl"
+            className="mb-4 rounded-2xl"
           ></iframe>
+        </div>
+        <div className=" flex justify-center">
+          <Link
+            href="https://maps.app.goo.gl/2Pqf3LDz6WMRRpJcA"
+            rel="noopener noreferrer"
+            target="_blank"
+            className="btn-primary w-[200px] mb-24 max-md:mb-10 text-white"
+          >
+            Google Maps
+          </Link>
         </div>
         <img
           className="absolute mx-auto bottom-0 left-0 right-0 overflow-hidden"
           src="/assets/images/chew/divider2-top.png"
           alt="err"
         />
-        {/* <div className="sm:mx-[100px] w-full flex justify-center bgChew sm:py-16 py-10 rounded-[32px] ">
-          <div className="flex flex-col sm:w-[40%] w-[80%]">
-            <div className="flex justify-center items-center gap-4">
-              <button
-                onClick={() => {
-                  setOpenModalRarity(true);
-                }}
-                className="btn-invert w-full"
-              >
-                View Rarity
-              </button>
-              <button  onClick={()=>toast.success("Coming soon!")}  className="btn-primary w-full">Submit</button>
-            </div>
-            <img
-              className="mt-6"
-              src="/assets/images/chew/chew_list_3.gif"
-              alt="err"
-            />
-          </div>
-        </div> */}
       </div>
     </section>
   );
