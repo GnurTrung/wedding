@@ -17,7 +17,7 @@ export default function Home() {
   useEffect(() => {
     setTimeout(() => {
       setIsLoading(false);
-    }, 1000);
+    }, 1500);
     AOS.init({
       offset: 200,
       duration: 600,
@@ -53,7 +53,7 @@ export default function Home() {
             <Toaster />
             <Header />
             <FirstPage />
-            <RunningText />
+            {/* <RunningText /> */}
             <SecondPage />
             <Footer />
           </ApplicationProvider>

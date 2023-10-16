@@ -1,14 +1,14 @@
 import "./globals.css";
 
-const title = "Welcome to ChewChew Memecoin";
+const title = "HuyLoan - We are getting married!";
 const desc =
-  "ChewChew  is a memecoin SEI ecosystem.";
-const img = "https://chewchew.wtf/assets/images/chew/chew_gradient.png";
+  "HuyLoan's wedding invitation";
+const img = "/assets/images/chew/thumb.jpeg";
 
 export const metadata = {
   title: title,
   description: desc,
-  keywords: ["sei", "sei meme", "chew chew", "chewchew memecoin", "memecoin"],
+  keywords: ["wedding", "huy", "loan"],
   openGraph: {
     title: title,
     description: desc,
@@ -17,28 +17,15 @@ export const metadata = {
   twitter: {
     card: "summary",
     site: "",
-    url: "https://chewchew.wtf/",
+    url: "https://huyloan-wedding.vercel.app/",
     title: title,
     description: desc,
-    creator: "@chewchew",
+    creator: "@huyloan",
     images: {
       url: img,
-      alt: "ChewChew Logo",
+      alt: "Huy Loan Wedding",
     },
   },
-  /* robots: {
-    index: false,
-    follow: true,
-    nocache: true,
-    googleBot: {
-      index: true,
-      follow: false,
-      noimageindex: true,
-      "max-video-preview": -1,
-      "max-image-preview": "large",
-      "max-snippet": -1,
-    },
-  }, */
 };
 
 export default function RootLayout({

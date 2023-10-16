@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
 import React from "react";
 import CustomProgressBar from "./CustomProgressBar";
@@ -54,7 +55,7 @@ const SecondPage = () => {
 
   return (
     <section id="airdrop">
-      <div className="flex flex-col bgChewAirdrop py-20 relative">
+      {/* <div className="flex flex-col bgChewAirdrop py-20 relative">
         <Image
           className="mt-6 self-center"
           src="/assets/images/chew/chew_rainbow.gif"
@@ -88,7 +89,12 @@ const SecondPage = () => {
           height={80}
         />
       </div>
-      <div className="bg-[#FFE1E7] ">
+      <div className="relative">
+        <img
+          className="absolute inset-0 mx-auto"
+          src="/assets/images/chew/divider1-darkest.png"
+          alt="err"
+        />
         <div className="flex max-sm:flex-col justify-between sm:py-20 max-w-[90rem] mx-auto">
           <div className="flex gap-[30px] max-sm:px-[1rem]">
             <Image
@@ -136,10 +142,44 @@ const SecondPage = () => {
             />
           </div>
         </div>
-      </div>
+        <img
+          className="absolute mx-auto bottom-0 left-0 right-0 overflow-hidden"
+          src="/assets/images/chew/flowers-and-leaves.png"
+          alt="err"
+        />
+      </div> */}
 
-      <div className="bg-[#FFE1E7] flex justify-center py-20 max-sm:px-[1rem] w-full">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d930.2967299559931!2d105.99318347977983!3d21.144958317746937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313509b5232ed8f7%3A0x2644dd1605ee0cf5!2zU8OibiBW4bqtbiDEkOG7mW5nIEjhu5NpIFF1YW4!5e0!3m2!1sen!2s!4v1697385084839!5m2!1sen!2s" width="1300" height="450" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+      <div
+        className="bg-[#FFE1E7] relative py-20 max-sm:px-[1rem] w-full"
+        id="meme"
+        data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom"
+        data-aos-duration="500"
+      >
+        <div className="flex justify-center font-bold text-[40px]">
+          Địa điểm
+        </div>
+        <div className="flex justify-center text-font-base text-[25px] mt-5">
+          Sân vận động khu phố Hồi Quan, thị xã Tương Giang
+        </div>
+        <div className="flex justify-center text-font-base text-[25px] mb-5">
+          Thành phố Từ Sơn, Tỉnh Bắc Ninh
+        </div>
+        <div className=" flex justify-center">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d930.2967299559931!2d105.99318347977983!3d21.144958317746937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313509b5232ed8f7%3A0x2644dd1605ee0cf5!2zU8OibiBW4bqtbiDEkOG7mW5nIEjhu5NpIFF1YW4!5e0!3m2!1sen!2s!4v1697385084839!5m2!1sen!2s"
+            width="1300"
+            height="450"
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+            className="mb-24 rounded-b-xl"
+          ></iframe>
+        </div>
+        <img
+          className="absolute mx-auto bottom-0 left-0 right-0 overflow-hidden"
+          src="/assets/images/chew/divider2-top.png"
+          alt="err"
+        />
         {/* <div className="sm:mx-[100px] w-full flex justify-center bgChew sm:py-16 py-10 rounded-[32px] ">
           <div className="flex flex-col sm:w-[40%] w-[80%]">
             <div className="flex justify-center items-center gap-4">

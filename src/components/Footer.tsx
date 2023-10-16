@@ -22,16 +22,16 @@ const Footer = () => {
   ];
   return (
     <section
-      id="meme"
       className="px-[16px] py-[12px] sm:py-[30px] sm:px-[80px] bg-[#252841] flex sm:items-center justify-between"
     >
       <div className="flex flex-col sm:items-center">
         <a href="/" rel="noopener noreferrer">
           <Image
-            src="/assets/images/chew/chew_logo.png"
+            src="/assets/images/chew/hl.png"
             alt="err"
-            width={116}
-            height={116}
+            width={80}
+            height={80}
+            className="rounded-full"
           />
         </a>
         <p className="text-secondary font-normal text-[20px] 2xl:hidden mt-[20px]">
@@ -46,7 +46,7 @@ const Footer = () => {
           <li key={item.id} className="flex gap-[20px] items-center">
             <IconBall />
             <a
-              className="hover:text-[#FFC01F] transition-all font-semibold text-[16px] sm:text-[32px] text-white "
+              className="hover:text-[#996E6D] transition-all font-semibold text-[16px] sm:text-[32px] text-white "
               href={item.href}
               target="_blank"
               rel="noopener noreferrer"
