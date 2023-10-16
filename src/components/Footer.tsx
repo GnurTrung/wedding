@@ -35,13 +35,13 @@ const Footer = () => {
           />
         </a>
         <p className="text-secondary font-normal text-[20px] 2xl:hidden mt-[20px]">
-          © 2023 CHEW CHEW
+          © 2023 Wedding
         </p>
       </div>
       <p className="text-secondary font-normal text-[20px] max-2xl:hidden">
-        © 2023 CHEW CHEW
+        © 2023 Wedding
       </p>
-      <ul className="flex max-2xl:flex-col gap-[13px] sm:gap-[1rem] 2xl:gap-[5rem] max-sm:mt-[2rem]">
+      {/* <ul className="flex max-2xl:flex-col gap-[13px] sm:gap-[1rem] 2xl:gap-[5rem] max-sm:mt-[2rem]">
         {linkList.map((item) => (
           <li key={item.id} className="flex gap-[20px] items-center">
             <IconBall />
@@ -55,7 +55,7 @@ const Footer = () => {
             </a>
           </li>
         ))}
-      </ul>
+      </ul> */}
     </section>
   );
 };
