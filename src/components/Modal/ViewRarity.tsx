@@ -1,8 +1,6 @@
 import CustomModal from ".";
 import { Button } from "antd";
-import Image from "next/image";
 import { useEffect, useState } from "react";
-// import IconSuccess from "../../assets/icon/IconSuccess";
 
 const ViewRarity = ({ open, onCancel, type }: any) => {
   const [img, setImg] = useState("/assets/images/chew/photo-1.png");

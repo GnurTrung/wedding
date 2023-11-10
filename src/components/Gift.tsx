@@ -35,22 +35,22 @@ const Gift = () => {
         </p>
       </div>
       <div className="flex sm:justify-evenly max-sm:flex-col gap-2">
-        <HongBao
-          title="Chú rể"
-          subTitle="계좌번호 확인"
+        <div
           onClick={() => {
             setType("re");
             onShowModalSuccess();
           }}
-        />
-        <HongBao
-          title="Cô dâu"
-          subTitle="계좌번호 확인"
+        >
+          <HongBao title="Chú rể" subTitle="계좌번호 확인" />
+        </div>
+        <div
           onClick={() => {
             setType("dau");
             onShowModalSuccess();
           }}
-        />
+        >
+          <HongBao title="Cô dâu" subTitle="계좌번호 확인" />
+        </div>
       </div>
       <ViewRarity
         open={showModalSuccess}
