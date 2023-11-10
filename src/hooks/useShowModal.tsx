@@ -8,9 +8,9 @@ const useShowModal = () => {
     setShowModal(false);
     setData({});
   };
-  const onShow = (data: any) => {
+  const onShow = () => {
     setShowModal(true);
-    setData(data);
+    // setData(data);
   };
 
   return { showModal, toggleModal, onHide, onShow, dataModal: data };

@@ -11,6 +11,8 @@ import Script from "next/script";
 import Header from "@/components/Header";
 import { ApplicationProvider, useApplication } from "@/context/useApplication";
 import { Toaster } from "react-hot-toast";
+import Gift from "@/components/Gift";
+import Gallery from "@/components/Gallery";
 
 export default function Home() {
   const [isLoading, setIsLoading] = useState(true);
@@ -54,7 +56,9 @@ export default function Home() {
             <Header />
             <FirstPage />
             <RunningText />
+            <Gallery />
             <SecondPage />
+            <Gift />
             <Footer />
           </ApplicationProvider>
         </>
