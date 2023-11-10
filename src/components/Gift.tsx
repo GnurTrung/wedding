@@ -36,6 +36,7 @@ const Gift = () => {
       </div>
       <div className="flex sm:justify-evenly max-sm:flex-col gap-2">
         <div
+          className="lg:w-[400px]"
           onClick={() => {
             setType("re");
             onShowModalSuccess();
@@ -44,6 +45,7 @@ const Gift = () => {
           <HongBao title="Chú rể" subTitle="계좌번호 확인" />
         </div>
         <div
+          className="lg:w-[400px]"
           onClick={() => {
             setType("dau");
             onShowModalSuccess();
