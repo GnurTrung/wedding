@@ -14,22 +14,22 @@ const SecondPage = () => {
         data-aos-duration="500"
       >
         <div>
-          <div className="flex justify-center text-font-base font-medium text-[40px]">
+          <div className="flex justify-center font-bold text-[40px]">
             Nhà trai
           </div>
-          <div className="flex justify-center text-[28px] mt-5">
+          <div className="flex justify-center text-[28px] mt-5 text-font-base">
             18h - 19/10/2023 (Âm lịch)
           </div>
-          <div className="flex justify-center text-[28px]">
+          <div className="flex justify-center text-[24px] text-font-base">
             Tức - 01/12/2023 (Dương lịch)
           </div>
-          <div className="flex justify-center text-[28px] mt-5 font-semibold">
+          <div className="flex justify-center text-[28px] mt-5 font-medium text-font-base">
             Gia đình ông bà Tiến Nhung
           </div>
-          <div className="flex justify-center text-[20px] mt-5">
+          <div className="flex justify-center text-[20px] mt-5 text-font-base">
             KP. Hồi Quan, Tương Giang
           </div>
-          <div className="flex justify-center text-[20px] mb-5">
+          <div className="flex justify-center text-[20px] mb-5 text-font-base">
             TP. Từ Sơn, T. Bắc Ninh
           </div>
           <div className="flex justify-center">
@@ -54,22 +54,22 @@ const SecondPage = () => {
           </div>
         </div>
         <div>
-          <div className="flex justify-center text-font-base font-medium text-[40px] max-sm:mt-10">
+          <div className="flex justify-center font-medium text-[40px] max-sm:mt-10">
             Nhà gái
           </div>
-          <div className="flex justify-center text-[28px] mt-5">
+          <div className="flex justify-center text-[28px] mt-5 text-font-base">
             10h - 20/10/2023 (Âm lịch)
           </div>
-          <div className="flex justify-center text-[28px]">
+          <div className="flex justify-center text-[28px] text-font-base">
             Tức - 02/12/2023 (Dương lịch)
           </div>
-          <div className="flex justify-center text-[28px] mt-5 font-semibold">
+          <div className="flex justify-center text-[28px] mt-5 font-medium text-font-base">
             Gia đình ông bà Hiệp Mai
           </div>
-          <div className="flex justify-center text-[20px] mt-5">
+          <div className="flex justify-center text-[20px] mt-5 text-font-base">
             Đồng Bèo - Phù Khê Đông.
           </div>
-          <div className="flex justify-center text-[20px] mb-5">
+          <div className="flex justify-center text-[20px] mb-5 text-font-base">
             TP. Từ Sơn, T. Bắc Ninh
           </div>
           <div className="flex justify-center">
