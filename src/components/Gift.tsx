@@ -16,12 +16,12 @@ const Gift = () => {
 
   return (
     <section
-      id="about"
+      id="chucmung"
       className="px-10 sm:px-20 pt-20 sm:pb-40 pb-20 max-sm:flex-col relative"
     >
       <img
         className="absolute inset-0 mx-auto top-5"
-        src="/assets/images/chew/sec-title-flower.png"
+        src="/assets/images/chew/divide.png"
         alt="err"
       />
       <img
@@ -30,7 +30,7 @@ const Gift = () => {
         alt="err"
       />
       <div className="flex justify-center">
-        <p className="text-[50px] font-[500] text-black max-w-[1000px] py-5">
+        <p className="text-[64px] font-[500] text-black max-w-[1000px] py-5">
           Chúc mừng
         </p>
       </div>

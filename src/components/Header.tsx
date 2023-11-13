@@ -13,23 +13,23 @@ const Header = () => {
   const linkList = [
     {
       id: 1,
-      name: "Home",
-      link: "#home",
+      name: "Chú rể & cô dâu",
+      link: "#daure",
     },
     {
       id: 2,
-      name: "About",
-      link: "#about",
+      name: "Ảnh cưới",
+      link: "#anhcuoi",
     },
     {
       id: 3,
-      name: "Airdrop",
-      link: "#airdrop",
+      name: "Địa điểm",
+      link: "#diadiem",
     },
     {
       id: 4,
-      name: "Địa điểm",
-      link: "#meme",
+      name: "Chúc mừng",
+      link: "#chucmung",
     },
   ];
   return (
@@ -37,7 +37,7 @@ const Header = () => {
       <div className="flex flex-col sm:items-center">
         <a href="/" rel="noopener noreferrer">
           <Image
-            src="/assets/images/chew/hl.png"
+            src="/assets/images/chew/logo.png"
             alt="err"
             width={60}
             height={61}

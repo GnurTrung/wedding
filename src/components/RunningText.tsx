@@ -10,11 +10,11 @@ const RunningText = () => {
     >
       <img
         className="absolute inset-0 mx-auto top-5 sm:block hidden"
-        src="/assets/images/chew/sec-title-flower.png"
+        src="/assets/images/chew/divide.png"
         alt="err"
       />
       <div className="flex justify-center">
-        <p className="text-[50px] font-[500] text-black max-w-[1000px] py-5 max-md:hidden">
+        <p className="text-[50px] text-black max-w-[1000px] py-5">
           Chú rể & Cô dâu
         </p>
       </div>
@@ -35,7 +35,7 @@ const RunningText = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col gap-3">
+        <div className="flex flex-col gap-3 max-sm:mt-10">
           <img
             className="max-lg:max-w-full max-w-[500px]"
             src="/assets/images/chew/dau.jpeg"

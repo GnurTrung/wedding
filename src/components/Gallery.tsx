@@ -5,10 +5,10 @@ import React, { lazy } from "react";
 const Gallery = () => {
   return (
     <section
-      id="gallery"
+      id="anhcuoi"
       className="relative pt-20 pb-10 max-w-[1440px] mx-auto md:pt-0 lg:pt-32 lg:pb-20 grid grid-flow-row gap-4 grid-rows-7 lg:grid-rows-5 grid-cols-2 lg:grid-cols-3 h-screen px-4 lg:px-8"
     >
-      <h1 className="col-span-2 text-5xl font-great-vibes my-auto mx-auto text-black lg:hidden">
+      <h1 className="col-span-2 text-[64px] font-great-vibes my-auto mx-auto text-black lg:hidden">
         Ảnh cưới
       </h1>
       <div className="flex row-span-3 ">
@@ -55,7 +55,7 @@ const Gallery = () => {
           className="object-cover"
         />
       </div>
-      <div className="flex row-span-2 lg:row-span-2 col-span-2 lg:col-span-1 w-full relative">
+      <div className="flex row-span-4 lg:row-span-2 col-span-2 lg:col-span-1 w-full relative">
         <Image
           src="/assets/images/chew/photo-5.png"
           alt="Picture of the author"
@@ -67,12 +67,12 @@ const Gallery = () => {
       </div>
       <img
         className="absolute inset-0 mx-auto top-5"
-        src="/assets/images/chew/sec-title-flower.png"
+        src="/assets/images/chew/divide.png"
         alt="err"
       />
       <img
         className="absolute mx-auto -bottom-10 left-0 right-0 overflow-hidden"
-        src="/assets/images/chew/divider1-darkest.png"
+        src="/assets/images/chew/divide.png"
         alt="err"
       />
     </section>

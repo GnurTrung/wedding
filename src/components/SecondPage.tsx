@@ -55,8 +55,8 @@ const SecondPage = () => {
   ];
 
   return (
-    <section id="airdrop" >
-      <div className="flex justify-center font-bold text-[40px] pt-10">Địa điểm</div>
+    <section id="diadiem" >
+      <div className="flex justify-center text-[64px] pt-20">Địa điểm</div>
       <div
         className="relative py-10 max-sm:px-[1rem] w-full flex flex-col sm:justify-around sm:flex-row gap-2"
         id="meme"
@@ -97,7 +97,7 @@ const SecondPage = () => {
           
         </div>
         <div>
-          <div className="flex justify-center font-bold text-[40px]">
+          <div className="flex justify-center font-bold text-[40px] max-sm:mt-10">
             Nhà gái
           </div>
           <div className="flex justify-center text-font-base text-[25px] mt-5">

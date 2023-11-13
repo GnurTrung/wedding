@@ -4,12 +4,12 @@ import React from "react";
 const Footer = () => {
   return (
     <section
-      className="px-[16px] py-[12px] sm:py-[30px] sm:px-[80px] bg-[#252841] flex sm:items-center justify-between"
+      className="px-[16px] py-[12px] sm:py-[30px] sm:px-[80px] bg-[#000000] flex sm:items-center justify-between"
     >
       <div className="flex flex-col sm:items-center">
         <a href="/" rel="noopener noreferrer">
           <Image
-            src="/assets/images/chew/hl.png"
+            src="/assets/images/chew/logo.png"
             alt="err"
             width={80}
             height={80}
