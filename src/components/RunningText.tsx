@@ -6,7 +6,7 @@ const RunningText = () => {
   return (
     <section
       id="daure"
-      className="px-10 sm:px-20 py-10 pt-20 max-sm:flex-col relative"
+      className="px-5 sm:px-20 py-10 pt-20 max-sm:flex-col relative"
     >
       <img
         className="absolute inset-0 mx-auto top-5 sm:block hidden"
@@ -42,12 +42,12 @@ const RunningText = () => {
             alt="err"
           />
           <div className="flex flex-col justify-center items-center text-[20px]">
-            <div className="text-[50px]">... Loan</div>
+            <div className="text-[50px]">Lê Thị Loan</div>
             <div className="flex flex-row gap-2 text-font-base">
-              Con ông: <div className="font-medium">...</div>
+              Con ông: <div className="font-medium">Lê Văn Hiệp</div>
             </div>
             <div className="flex flex-row gap-2 text-font-base">
-              Con bà: <div className="font-medium">...</div>
+              Con bà: <div className="font-medium">Mạc Thị Mai</div>
             </div>
           </div>
         </div>

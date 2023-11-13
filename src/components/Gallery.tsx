@@ -71,7 +71,7 @@ const Gallery = () => {
         alt="err"
       />
       <img
-        className="absolute mx-auto -bottom-10 left-0 right-0 overflow-hidden"
+        className="absolute mx-auto -bottom-16 left-0 right-0 overflow-hidden"
         src="/assets/images/chew/divide.png"
         alt="err"
       />

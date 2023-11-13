@@ -3,17 +3,17 @@ import { Button } from "antd";
 import { useEffect, useState } from "react";
 
 const ViewRarity = ({ open, onCancel, type }: any) => {
-  const [img, setImg] = useState("/assets/images/chew/photo-1.png");
+  const [img, setImg] = useState("/assets/images/chew/qr-re.jpg");
   useEffect(() => {
     switch (type) {
       case "re":
-        setImg("/assets/images/chew/photo-1.png");
+        setImg("/assets/images/chew/qr-re.jpg");
         break;
       case "dau":
-        setImg("/assets/images/chew/photo-2.png");
+        setImg("/assets/images/chew/qr-dau.jpg");
         break;
       default:
-        setImg("/assets/images/chew/photo-1.png");
+        setImg("/assets/images/chew/qr-re.jpg");
         break;
     }
   }, [type]);
@@ -31,7 +31,7 @@ const ViewRarity = ({ open, onCancel, type }: any) => {
           src={img}
           alt="Picture of the author"
           loading="lazy"
-          className="object-cover"
+          className="object-cover w-full aspect-[1/1.5]"
         />
         <Button
           className="btn-primary text-white w-[277px] mt-[12px]"

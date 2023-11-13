@@ -1,62 +1,11 @@
 /* eslint-disable @next/next/no-img-element */
-import Image from "next/image";
 import React from "react";
-import CustomProgressBar from "./CustomProgressBar";
-import { useApplication } from "@/context/useApplication";
-import { formatWallet } from "@/utils";
-import { toast } from "react-hot-toast";
 import Link from "next/link";
 
 const SecondPage = () => {
-  const { setOpenModalRarity, setOpenWallet, handleDisconnectSei } =
-    useApplication();
-
-  const list = [
-    {
-      id: 1,
-      content: "SEI Airdrop Eligible Wallet (Optional)",
-    },
-    {
-      id: 2,
-      content: "Minted 1 Chew Chew (Sei Mainnet)",
-    },
-    {
-      id: 3,
-      content: "Minted Chew Chew",
-    },
-    {
-      id: 4,
-      content: "Minted Chew Chew",
-    },
-    {
-      id: 5,
-      content: "Invited  friends (holder $CHEW)",
-    },
-    {
-      id: 6,
-      content: "Invited 10+ friends (holder $CHEW)",
-    },
-    {
-      id: 7,
-      content: "$000 volume traded",
-    },
-    {
-      id: 8,
-      content: "$000 volume traded",
-    },
-    {
-      id: 9,
-      content: "$000 volume traded",
-    },
-    {
-      id: 10,
-      content: "$000 volume traded",
-    },
-  ];
-
   return (
-    <section id="diadiem" >
-      <div className="flex justify-center text-[64px] pt-20">Địa điểm</div>
+    <section id="diadiem">
+      <div className="flex justify-center text-[64px] pt-20">Tiệc cưới</div>
       <div
         className="relative py-10 max-sm:px-[1rem] w-full flex flex-col sm:justify-around sm:flex-row gap-2"
         id="meme"
@@ -65,14 +14,23 @@ const SecondPage = () => {
         data-aos-duration="500"
       >
         <div>
-          <div className="flex justify-center font-bold text-[40px]">
+          <div className="flex justify-center text-font-base font-medium text-[40px]">
             Nhà trai
           </div>
-          <div className="flex justify-center text-font-base text-[25px] mt-5">
-            Gia đình ông bà Tiến Nhung, Thôn Hồi Quan, Phường Tương Giang
+          <div className="flex justify-center text-[28px] mt-5">
+            18h - 19/10/2023 (Âm lịch)
           </div>
-          <div className="flex justify-center text-font-base text-[25px] mb-5">
-            Thành phố Từ Sơn, Tỉnh Bắc Ninh
+          <div className="flex justify-center text-[28px]">
+            Tức - 01/12/2023 (Dương lịch)
+          </div>
+          <div className="flex justify-center text-[28px] mt-5 font-semibold">
+            Gia đình ông bà Tiến Nhung
+          </div>
+          <div className="flex justify-center text-[20px] mt-5">
+            KP. Hồi Quan, Tương Giang
+          </div>
+          <div className="flex justify-center text-[20px] mb-5">
+            TP. Từ Sơn, T. Bắc Ninh
           </div>
           <div className="flex justify-center">
             <iframe
@@ -94,21 +52,29 @@ const SecondPage = () => {
               Google Maps
             </Link>
           </div>
-          
         </div>
         <div>
-          <div className="flex justify-center font-bold text-[40px] max-sm:mt-10">
+          <div className="flex justify-center text-font-base font-medium text-[40px] max-sm:mt-10">
             Nhà gái
           </div>
-          <div className="flex justify-center text-font-base text-[25px] mt-5">
-            Gia đình ông bà Tiến Nhung, Thôn Hồi Quan, Phường Tương Giang
+          <div className="flex justify-center text-[28px] mt-5">
+            10h - 20/10/2023 (Âm lịch)
           </div>
-          <div className="flex justify-center text-font-base text-[25px] mb-5">
-            Thành phố Từ Sơn, Tỉnh Bắc Ninh
+          <div className="flex justify-center text-[28px]">
+            Tức - 02/12/2023 (Dương lịch)
+          </div>
+          <div className="flex justify-center text-[28px] mt-5 font-semibold">
+            Gia đình ông bà Hiệp Mai
+          </div>
+          <div className="flex justify-center text-[20px] mt-5">
+            Đồng Bèo - Phù Khê Đông.
+          </div>
+          <div className="flex justify-center text-[20px] mb-5">
+            TP. Từ Sơn, T. Bắc Ninh
           </div>
           <div className="flex justify-center">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3721.1976567360275!2d105.98812187596543!3d21.14453088053395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135095a0d448bc5%3A0x3107e3f3ed527e5d!2zQ8ahIHPhu58gc-G6o24geHXhuqV0IMSR4buTIHPGoSBzaW5oIFRp4bq_biBOaHVuZw!5e0!3m2!1sen!2s!4v1699584836013!5m2!1sen!2s"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3721.306810338356!2d105.93872!3d21.140185!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135074c414e78e5%3A0xd56caf73f3fb62e9!2zxJDhu5MgR-G7lyBN4bu5IE5naOG7hyBIaeG7h3AgTWFp!5e0!3m2!1sen!2s!4v1699844247841!5m2!1sen!2s"
               width="700"
               height="450"
               loading="lazy"
@@ -118,7 +84,7 @@ const SecondPage = () => {
           </div>
           <div className=" flex justify-center">
             <Link
-              href="https://maps.app.goo.gl/NH3ak6gJVKTYWMGP9"
+              href="https://www.google.com/maps/place/4WRQ%2B3FH+Đồ+Gỗ+Mỹ+Nghệ+Hiệp+Mai,+Phù+Khê+Đông,+Từ+Sơn,+Bắc+Ninh,+Vietnam/@21.140185,105.93872,17z/data=!4m6!3m5!1s0x3135074c414e78e5:0xd56caf73f3fb62e9!8m2!3d21.140185!4d105.93872!16s%2Fg%2F11t6yymvq0"
               rel="noopener noreferrer"
               target="_blank"
               className="btn-primary w-[200px] mt-5 text-white"
