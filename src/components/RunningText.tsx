@@ -5,7 +5,7 @@ import React, { lazy } from "react";
 const RunningText = () => {
   return (
     <section
-      id="about"
+      id="daure"
       className="px-10 sm:px-20 py-10 pt-20 max-sm:flex-col relative"
     >
       <img
