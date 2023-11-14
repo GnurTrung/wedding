@@ -10,10 +10,10 @@ const SecondPage = () => {
         Trân trọng kính mời bạn
       </div>
       <div className="flex justify-center text-[28px]">
-        Đến tham gia bữa tiệc
+        đến tham gia bữa tiệc
       </div>
       <div className="flex justify-center text-[28px]">
-        Chung vui cùng gia đình chúng tôi
+        chung vui cùng gia đình chúng tôi
       </div>
       <div
         className="relative py-10 max-sm:px-[1rem] w-full flex flex-col sm:justify-around sm:flex-row gap-2"
@@ -107,7 +107,7 @@ const SecondPage = () => {
         Sự hiện diện của bạn
       </div>
       <div className="flex justify-center text-[28px] mb-8">
-        Là niềm vinh hạnh cho gia đình chúng tôi
+        là niềm vinh hạnh cho gia đình chúng tôi
       </div>
     </section>
   );
