@@ -9,7 +9,7 @@ const RunningText = () => {
       className="px-5 sm:px-20 py-10 pt-20 max-sm:flex-col relative"
     >
       <img
-        className="absolute inset-0 mx-auto top-5 sm:block hidden"
+        className="absolute inset-0 mx-auto top-5"
         src="/assets/images/chew/divide.png"
         alt="err"
       />

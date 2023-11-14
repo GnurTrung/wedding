@@ -1,13 +1,10 @@
-import React, { lazy, useState } from "react";
+import React, { useState } from "react";
 import HongBao from "./HongBao";
 import ViewRarity from "./Modal/ViewRarity";
-import { useApplication } from "@/context/useApplication";
 import useShowModal from "@/hooks/useShowModal";
 
 const Gift = () => {
   const [type, setType] = useState("re");
-  const { setOpenModalRarity } = useApplication();
-
   const {
     showModal: showModalSuccess,
     onHide: onHideModalSuccess,
@@ -42,7 +39,7 @@ const Gift = () => {
             onShowModalSuccess();
           }}
         >
-          <HongBao title="Chú rể" subTitle="계좌번호 확인" />
+          <HongBao title="Chú rể" subTitle="" />
         </div>
         <div
           className="lg:w-[400px]"
@@ -51,7 +48,7 @@ const Gift = () => {
             onShowModalSuccess();
           }}
         >
-          <HongBao title="Cô dâu" subTitle="계좌번호 확인" />
+          <HongBao title="Cô dâu" subTitle="" />
         </div>
       </div>
       <ViewRarity

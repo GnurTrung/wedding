@@ -6,6 +6,15 @@ const SecondPage = () => {
   return (
     <section id="diadiem">
       <div className="flex justify-center text-[64px] pt-20">Tiệc cưới</div>
+      <div className="flex justify-center text-[28px] pt-5">
+        Trân trọng kính mời bạn
+      </div>
+      <div className="flex justify-center text-[28px]">
+        Đến tham gia bữa tiệc
+      </div>
+      <div className="flex justify-center text-[28px]">
+        Chung vui cùng gia đình chúng tôi
+      </div>
       <div
         className="relative py-10 max-sm:px-[1rem] w-full flex flex-col sm:justify-around sm:flex-row gap-2"
         id="meme"
@@ -17,7 +26,7 @@ const SecondPage = () => {
           <div className="flex justify-center font-bold text-[40px]">
             Nhà trai
           </div>
-          <div className="flex justify-center text-[28px] mt-5 text-font-base">
+          <div className="flex justify-center text-[26px] mt-5 text-font-base">
             18h - 19/10/2023 (Âm lịch)
           </div>
           <div className="flex justify-center text-[24px] text-font-base">
@@ -57,10 +66,10 @@ const SecondPage = () => {
           <div className="flex justify-center font-medium text-[40px] max-sm:mt-10">
             Nhà gái
           </div>
-          <div className="flex justify-center text-[28px] mt-5 text-font-base">
+          <div className="flex justify-center text-[26px] mt-5 text-font-base">
             10h - 20/10/2023 (Âm lịch)
           </div>
-          <div className="flex justify-center text-[28px] text-font-base">
+          <div className="flex justify-center text-[24px] text-font-base">
             Tức - 02/12/2023 (Dương lịch)
           </div>
           <div className="flex justify-center text-[28px] mt-5 font-medium text-font-base">
@@ -93,6 +102,12 @@ const SecondPage = () => {
             </Link>
           </div>
         </div>
+      </div>
+      <div className="flex justify-center text-[28px]">
+        Sự hiện diện của bạn
+      </div>
+      <div className="flex justify-center text-[28px] mb-8">
+        Là niềm vinh hạnh cho gia đình chúng tôi
       </div>
     </section>
   );

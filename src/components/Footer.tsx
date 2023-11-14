@@ -7,7 +7,7 @@ const Footer = () => {
       className="px-[16px] py-[12px] sm:py-[30px] sm:px-[80px] bg-[#000000] flex sm:items-center justify-between"
     >
       <div className="flex flex-col sm:items-center">
-        <a href="/" rel="noopener noreferrer">
+        <a href="/">
           <Image
             src="/assets/images/chew/logo.png"
             alt="err"
