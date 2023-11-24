@@ -23,7 +23,7 @@ const Header = () => {
     },
     {
       id: 3,
-      name: "Địa điểm",
+      name: "Tiệc cưới",
       link: "#diadiem",
     },
     {
@@ -33,7 +33,7 @@ const Header = () => {
     },
   ];
   return (
-    <footer className="absolute backdrop-blur-md flex justify-between sm:px-[7rem] py-[15px] w-full items-center z-[10] max-sm:px-[16px]">
+    <footer className="absolute backdrop-blur-md flex justify-between sm:px-[7rem] py-[12px] w-full items-center z-[10] max-sm:px-[16px]">
       <div className="flex flex-col sm:items-center">
         <a href="/" rel="noopener noreferrer">
           <Image
@@ -59,7 +59,7 @@ const Header = () => {
             }}
           >
             <a href={item.link}>
-              <div className="hover:text-[#996E6D] font-bold hover:cursor-pointer transition-all text-[16px] sm:text-[24px] text-white">
+              <div className="hover:text-[black] font-normal hover:cursor-pointer transition-all text-[24px] sm:text-[28px] text-white">
                 {item.name}
               </div>
             </a>
