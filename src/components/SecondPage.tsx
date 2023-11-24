@@ -108,7 +108,7 @@ const SecondPage = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-center text-[28px] mt-24">
+      <div className="flex justify-center text-[28px] mt-5">
         Sự hiện diện của bạn
       </div>
       <div className="flex justify-center text-[28px] mb-8">
