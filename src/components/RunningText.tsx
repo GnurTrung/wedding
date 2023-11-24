@@ -21,8 +21,8 @@ const RunningText = () => {
       <div className="flex sm:justify-evenly max-sm:flex-col gap-2">
         <div className="flex flex-col gap-3">
           <img
-            className="max-lg:max-w-full max-w-[500px]"
-            src="/assets/images/chew/re.jpeg"
+            className="max-lg:max-w-full max-w-[500px] max-h-[700px]"
+            src="/assets/images/chew/re.jpg"
             alt="err"
           />
           <div className="flex flex-col justify-center items-center text-[20px]">
@@ -37,8 +37,8 @@ const RunningText = () => {
         </div>
         <div className="flex flex-col gap-3 max-sm:mt-10">
           <img
-            className="max-lg:max-w-full max-w-[500px]"
-            src="/assets/images/chew/dau.jpeg"
+            className="max-lg:max-w-full max-w-[500px] max-h-[700px]"
+            src="/assets/images/chew/dau.jpg"
             alt="err"
           />
           <div className="flex flex-col justify-center items-center text-[20px]">

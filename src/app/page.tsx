@@ -56,8 +56,8 @@ export default function Home() {
             <Header />
             <FirstPage />
             <RunningText />
-            <Gallery />
             <SecondPage />
+            <Gallery />
             <Gift />
             <Footer />
           </ApplicationProvider>

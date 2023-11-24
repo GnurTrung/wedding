@@ -47,7 +47,7 @@
     );
   }
   .bg-page1 {
-    background: url("/assets/images/chew/thumb.jpeg");
+    background: url("/assets/images/chew/cuoi_pc.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -64,10 +64,11 @@
     background-size: cover;
   }
   .bg-page1-mobile {
-    height: 378px;
-    background: url("/assets/images/page1-bg-mobile.png");
+    background: url("/assets/images/chew/cuoi_mobile.jpg");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
   }
 
   .loading_img {

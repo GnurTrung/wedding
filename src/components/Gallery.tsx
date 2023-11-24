@@ -8,14 +8,14 @@ const Gallery = () => {
     <div className="relative pt-20 pb-10 md:pt-0 lg:pt-32 lg:pb-20">
       <section
         id="anhcuoi"
-        className="max-w-[1440px] mx-auto grid grid-flow-row gap-4 grid-rows-7 lg:grid-rows-5 grid-cols-2 lg:grid-cols-3 h-screen px-4 lg:px-8"
+        className="max-w-[1440px] mx-auto grid grid-flow-row gap-4 grid-rows-10 lg:grid-rows-5 grid-cols-2 lg:grid-cols-3 h-screen px-4 lg:px-8"
       >
         <h1 className="col-span-2 text-[64px] font-great-vibes my-auto mx-auto text-black lg:hidden">
           Ảnh cưới
         </h1>
         <div className="flex row-span-3 ">
           <Image
-            src="/assets/images/chew/photo-1.png"
+            src="/assets/images/chew/3.jpg"
             alt="Picture of the author"
             width={500}
             height={500}
@@ -26,7 +26,7 @@ const Gallery = () => {
         </div>
         <div className="flex  row-start-3 col-start-2 row-span-3 lg:row-span-5">
           <Image
-            src="/assets/images/chew/photo-2.png"
+            src="/assets/images/chew/2.jpg"
             alt="Picture of the author"
             width={500}
             height={500}
@@ -37,7 +37,7 @@ const Gallery = () => {
         </div>
         <div className="flex row-span-1 col-start-2 lg:col-start-3 row-start-2  lg:row-span-2">
           <Image
-            src="/assets/images/chew/photo-3.png"
+            src="/assets/images/chew/1.jpg"
             alt="Picture of the author"
             width={500}
             height={500}
@@ -48,7 +48,7 @@ const Gallery = () => {
         </div>
         <div className="flex row-span-1 lg:row-span-3">
           <Image
-            src="/assets/images/chew/photo-4.png"
+            src="/assets/images/chew/4.jpg"
             alt="Picture of the author"
             width={500}
             height={500}
@@ -57,14 +57,14 @@ const Gallery = () => {
             className="object-cover"
           />
         </div>
-        <div className="flex row-span-4 lg:row-span-2 col-span-2 lg:col-span-1 w-full relative">
+        <div className="flex row-span-6 lg:row-span-2 col-span-2 lg:col-span-1 w-full relative">
           <Image
-            src="/assets/images/chew/photo-5.png"
+            src="/assets/images/chew/5.jpg"
             alt="Picture of the author"
             layout="fill"
             quality={100}
             loading="lazy"
-            className="object-cover"
+            className="object-cover object-top"
           />
         </div>
         <img
@@ -78,14 +78,14 @@ const Gallery = () => {
           alt="err"
         />
       </section>
-      <Link
+      {/* <Link
         href={"/"}
         rel="noopener noreferrer"
         target="_blank"
         className="btn-primary mx-auto w-[150px] !text-white mt-4"
       >
         Xem thêm
-      </Link>
+      </Link> */}
     </div>
   );
 };
