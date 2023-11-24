@@ -21,7 +21,7 @@ const SecondPage = () => {
         chung vui cùng gia đình chúng tôi
       </div>
       <div
-        className="relative py-10 max-sm:px-[1rem] w-full flex flex-col sm:justify-around sm:flex-row gap-2"
+        className="relative pb-10 max-sm:px-[1rem] w-full flex flex-col sm:justify-around sm:flex-row gap-2"
         id="meme"
         data-aos="fade-up"
         data-aos-anchor-placement="top-bottom"
@@ -108,7 +108,7 @@ const SecondPage = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-center text-[28px]">
+      <div className="flex justify-center text-[28px] mt-24">
         Sự hiện diện của bạn
       </div>
       <div className="flex justify-center text-[28px] mb-8">
