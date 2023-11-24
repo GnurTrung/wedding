@@ -57,14 +57,16 @@ const Gallery = () => {
             className="object-cover"
           />
         </div>
-        <div className="flex row-span-6 lg:row-span-2 col-span-2 lg:col-span-1 w-full relative">
+        <div className="flex row-span-2 lg:row-span-2 col-span-2 lg:col-span-1 w-full relative">
           <Image
             src="/assets/images/chew/5.jpg"
             alt="Picture of the author"
-            layout="fill"
+            // layout="fill"
             quality={100}
+            width={500}
+            height={500}
             loading="lazy"
-            className="object-cover object-top"
+            className="object-cover object-top max-sm:h-full"
           />
         </div>
         <img
@@ -72,11 +74,11 @@ const Gallery = () => {
           src="/assets/images/chew/divide.png"
           alt="err"
         />
-        <img
+        {/* <img
           className="absolute mx-auto -bottom-16 left-0 right-0 overflow-hidden"
           src="/assets/images/chew/divide.png"
           alt="err"
-        />
+        /> */}
       </section>
       {/* <Link
         href={"/"}

@@ -4,7 +4,12 @@ import Link from "next/link";
 
 const SecondPage = () => {
   return (
-    <section id="diadiem">
+    <section id="diadiem" className="relative">
+      <img
+          className="absolute inset-0 mx-auto top-5"
+          src="/assets/images/chew/divide.png"
+          alt="err"
+        />
       <div className="flex justify-center text-[64px] pt-20">Tiệc cưới</div>
       <div className="flex justify-center text-[28px] pt-5">
         Trân trọng kính mời bạn

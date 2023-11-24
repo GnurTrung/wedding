@@ -14,7 +14,7 @@ const Gift = () => {
   return (
     <section
       id="chucmung"
-      className="px-5 sm:px-20 pt-20 sm:pb-40 pb-20 max-sm:flex-col relative"
+      className="px-5 sm:px-20 pt-20 sm:pb-40 pb-20 max-sm:flex-col relative mt-20"
     >
       <img
         className="absolute inset-0 mx-auto top-5"
