@@ -8,7 +8,7 @@ const FirstPage = () => {
         className="absolute h-full w-full flex justify-center items-center top-0 left-0 rounded-[8px]"
         style={{
           background:
-            "linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.4) 100%)",
+            "linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.7) 100%)",
         }}
       ></div>
       <div className="relative w-full">
