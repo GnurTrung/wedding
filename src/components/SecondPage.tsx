@@ -63,7 +63,7 @@ const SecondPage = () => {
           </div>
         </div>
         <div>
-          <div className="flex justify-center font-medium text-[40px] max-sm:mt-10">
+          <div className="flex justify-center font-bold text-[40px]">
             Nhà gái
           </div>
           <div className="flex justify-center text-[26px] mt-5 text-font-base">
