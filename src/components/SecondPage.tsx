@@ -28,7 +28,7 @@ const SecondPage = () => {
         data-aos-duration="500"
       >
         <div>
-          <div className="flex justify-center font-bold text-[40px]">
+          <div className="flex justify-center font-bold text-[40px] max-sm:mt-4">
             Nhà trai
           </div>
 
@@ -69,7 +69,7 @@ const SecondPage = () => {
           </div>
         </div>
         <div>
-          <div className="flex justify-center font-bold text-[40px]">
+          <div className="flex justify-center font-bold text-[40px] max-sm:mt-5">
             Nhà gái
           </div>
           <div className="flex justify-center text-[26px] mt-5 text-font-base">
