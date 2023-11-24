@@ -31,12 +31,11 @@ const SecondPage = () => {
           <div className="flex justify-center font-bold text-[40px] max-sm:mt-4">
             Nhà trai
           </div>
-
           <div className="flex justify-center text-[26px] mt-5 text-font-base">
-            10h - 20/10/2023 (Âm lịch)
+            18h - 19/10/2023 (Âm lịch)
           </div>
           <div className="flex justify-center text-[24px] text-font-base">
-            Tức - 02/12/2023 (Dương lịch)
+            Tức - 01/12/2023 (Dương lịch)
           </div>
           <div className="flex justify-center text-[28px] mt-5 font-medium text-font-base">
             Gia đình ông bà Tiến Nhung
@@ -72,11 +71,12 @@ const SecondPage = () => {
           <div className="flex justify-center font-bold text-[40px] max-sm:mt-5">
             Nhà gái
           </div>
+
           <div className="flex justify-center text-[26px] mt-5 text-font-base">
-            18h - 19/10/2023 (Âm lịch)
+            10h - 20/10/2023 (Âm lịch)
           </div>
           <div className="flex justify-center text-[24px] text-font-base">
-            Tức - 01/12/2023 (Dương lịch)
+            Tức - 02/12/2023 (Dương lịch)
           </div>
           <div className="flex justify-center text-[28px] mt-5 font-medium text-font-base">
             Gia đình ông bà Hiệp Mai
