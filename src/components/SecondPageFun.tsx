@@ -40,7 +40,7 @@ const SecondPageFun = () => {
                 Tại tư gia nhà gái
               </div>
               <div className="flex justify-center text-[20px] text-font-base font-light mt-2">
-                587 - Lý Thường Kiệt – KP. Đa Hội
+                SN 587 - Lý Thường Kiệt – KP. Đa Hội
               </div>
               <div className="flex justify-center text-[20px] mb-5 text-font-base font-light">
                 P. Châu Khê – TP. Từ Sơn - Bắc Ninh
@@ -104,12 +104,20 @@ const SecondPageFun = () => {
               className="object-cover h-[400px]"
             />
             <div className="flex flex-col items-center">
-              <div className="font-bold text-[40px] max-sm:mt-4">Tiệc ăn hỏi</div>
+              <div className="font-bold text-[40px] max-sm:mt-4">
+                Tiệc ăn hỏi
+              </div>
               <div className="text-[26px] mt-3 text-font-base">
                 17h thứ Ba - 19/11/2024
               </div>
               <div className="text-[28px] mt-2 font-medium text-font-base">
                 Tại Nhà hàng Ngọc Anh
+              </div>
+              <div className="flex justify-center text-[20px] text-font-base font-light mt-2">
+                547 - Lý Thường Kiệt – KP. Đa Hội
+              </div>
+              <div className="flex justify-center text-[20px] mb-5 text-font-base font-light">
+                P. Châu Khê – TP. Từ Sơn - Bắc Ninh
               </div>
               <div className="mt-1">
                 <Link
