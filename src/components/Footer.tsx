@@ -17,11 +17,11 @@ const Footer = () => {
           />
         </a>
         <p className="text-secondary font-normal text-[20px] 2xl:hidden mt-[20px]">
-          © 2023 Wedding
+          © 2024 Wedding
         </p>
       </div>
       <p className="text-secondary font-normal text-[20px] max-2xl:hidden">
-        © 2023 Wedding
+        © 2024 Wedding
       </p>
     </section>
   );

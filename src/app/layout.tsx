@@ -1,31 +1,31 @@
 import "./globals.css";
 
-const title = "HuyLoan - We are getting married!";
+const title = "TâmKhương - We are getting married!";
 const desc =
-  "HuyLoan's wedding invitation";
+  "TâmKhương's wedding invitation";
 const img = "/assets/images/chew/cuoi_pc.jpg";
 
 export const metadata = {
   title: title,
   description: desc,
-  keywords: ["wedding", "huy", "loan"],
+  keywords: ["wedding", "tam", "khuong"],
   openGraph: {
     title: title,
     description: desc,
     images: img,
   },
-  twitter: {
-    card: "summary",
-    site: "",
-    url: "https://huyloan-wedding.vercel.app/",
-    title: title,
-    description: desc,
-    creator: "@huyloan",
-    images: {
-      url: img,
-      alt: "Huy Loan Wedding",
-    },
-  },
+  // twitter: {
+  //   card: "summary",
+  //   site: "",
+  //   url: "https://huyloan-wedding.vercel.app/",
+  //   title: title,
+  //   description: desc,
+  //   creator: "@huyloan",
+  //   images: {
+  //     url: img,
+  //     alt: "Huy Loan Wedding",
+  //   },
+  // },
 };
 
 export default function RootLayout({

@@ -26,13 +26,13 @@ const RunningText = () => {
             alt="err"
           />
           <div className="flex flex-col justify-center items-center text-[20px]">
-            <div className="text-[50px]">Vũ Văn Huy</div>
-            <div className="flex flex-row gap-2 text-font-base">
+            <div className="text-[50px]">Nguyễn Duy Khương</div>
+            {/* <div className="flex flex-row gap-2 text-font-base">
               Con ông: <div className="font-medium">Vũ Văn Tiến</div>
             </div>
             <div className="flex flex-row gap-2 text-font-base">
               Con bà: <div className="font-medium">Ngô Thị Nhung</div>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="flex flex-col gap-3 max-sm:mt-10">
@@ -42,13 +42,13 @@ const RunningText = () => {
             alt="err"
           />
           <div className="flex flex-col justify-center items-center text-[20px]">
-            <div className="text-[50px]">Lê Thị Loan</div>
-            <div className="flex flex-row gap-2 text-font-base">
+            <div className="text-[50px]">Trần Thị Thanh Tâm</div>
+            {/* <div className="flex flex-row gap-2 text-font-base">
               Con ông: <div className="font-medium">Lê Văn Hiệp</div>
             </div>
             <div className="flex flex-row gap-2 text-font-base">
               Con bà: <div className="font-medium">Mạc Thị Mai</div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

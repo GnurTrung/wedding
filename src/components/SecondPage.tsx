@@ -20,7 +20,7 @@ const SecondPage = () => {
       <div className="flex justify-center text-[28px]">
         chung vui cùng gia đình chúng tôi
       </div>
-      <div
+      {/* <div
         className="relative pb-10 max-sm:px-[1rem] w-full flex flex-col sm:justify-around sm:flex-row gap-2"
         id="meme"
         data-aos="fade-up"
@@ -108,7 +108,7 @@ const SecondPage = () => {
             </Link>
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="flex justify-center text-[28px] mt-5">
         Sự hiện diện của bạn
       </div>

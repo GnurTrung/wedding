@@ -14,16 +14,11 @@ const Gift = () => {
   return (
     <section
       id="chucmung"
-      className="px-5 sm:px-20 pt-20 sm:pb-40 pb-20 max-sm:flex-col relative mt-20"
+      className="px-5 sm:px-20 sm:pb-40 pb-20 max-sm:flex-col relative mt-20"
     >
-      {/* <img
-        className="absolute inset-0 mx-auto top-5"
-        src="/assets/images/chew/divide.png"
-        alt="err"
-      /> */}
       <img
-        className="absolute mx-auto bottom-0 left-0 right-0 overflow-hidden"
-        src="/assets/images/chew/divider2-top.png"
+        className="absolute mx-auto bottom-4 left-0 right-0 overflow-hidden"
+        src="/assets/images/chew/divide.png"
         alt="err"
       />
       <div className="flex justify-center">
