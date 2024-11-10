@@ -8,7 +8,7 @@ const Gallery = () => {
     <div className="relative pt-20 pb-10 md:pt-0 lg:pt-32 lg:pb-20">
       <section
         id="anhcuoi"
-        className="max-w-[1440px] mx-auto grid grid-flow-row gap-4 grid-rows-10 lg:grid-rows-5 grid-cols-2 lg:grid-cols-3 h-screen px-4 lg:px-8"
+        className="max-w-[1440px] mx-auto grid grid-flow-row gap-4 grid-rows-10 lg:grid-rows-5 grid-cols-2 lg:grid-cols-3 min-h-screen px-4 lg:px-8"
       >
         <h1 className="col-span-2 text-[64px] font-great-vibes my-auto mx-auto text-black lg:hidden">
           Ảnh cưới

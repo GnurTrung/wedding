@@ -26,7 +26,7 @@ const RunningText = () => {
             alt="err"
           />
           <div className="flex flex-col justify-center items-center text-[20px]">
-            <div className="text-[50px]">Nguyễn Duy Khương</div>
+            <div className="text-[40px]">Trần Duy Khương</div>
             {/* <div className="flex flex-row gap-2 text-font-base">
               Con ông: <div className="font-medium">Vũ Văn Tiến</div>
             </div>
@@ -42,7 +42,7 @@ const RunningText = () => {
             alt="err"
           />
           <div className="flex flex-col justify-center items-center text-[20px]">
-            <div className="text-[50px]">Trần Thị Thanh Tâm</div>
+            <div className="text-[40px]">Trần Thị Thanh Tâm</div>
             {/* <div className="flex flex-row gap-2 text-font-base">
               Con ông: <div className="font-medium">Lê Văn Hiệp</div>
             </div>

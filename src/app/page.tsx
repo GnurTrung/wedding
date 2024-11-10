@@ -58,7 +58,7 @@ export default function Home() {
             <RunningText />
             <SecondPage />
             <Gallery />
-            <Gift />
+            {/* <Gift /> */}
             <Footer />
           </ApplicationProvider>
         </>
