@@ -59,9 +59,8 @@ const Gallery = () => {
         </div>
         <div className="flex row-span-2 lg:row-span-2 col-span-2 lg:col-span-1 w-full relative">
           <Image
-            src="/assets/images/chew/15.jpg"
+            src="/assets/images/chew/16.jpg"
             alt="Picture of the author"
-            // layout="fill"
             quality={100}
             width={500}
             height={500}
