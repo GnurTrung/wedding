@@ -39,7 +39,7 @@ const SecondPage = () => {
               Nhà hàng Ngọc Anh
             </div>
             <div className="flex justify-center text-[20px] text-font-base font-light mt-2">
-              547 - Lý Thường Kiệt – KP. Đa Hội
+              SN 547 - Lý Thường Kiệt – KP. Đa Hội
             </div>
             <div className="flex justify-center text-[20px] mb-5 text-font-base font-light">
               P. Châu Khê – TP. Từ Sơn - Bắc Ninh
