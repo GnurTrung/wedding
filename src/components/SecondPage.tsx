@@ -22,7 +22,7 @@ const SecondPage = () => {
       </div>
       <div className="flex justify-center items-center mt-2">
         <div
-          className="relative rounded-lg max-sm:px-[1rem] p-2 w-full flex flex-col sm:items-center sm:flex-row gap-4 sm:max-w-[70%] sm:justify-center shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0px_16px_56px_rgba(17,17,26,0.1)]"
+          className="relative rounded-lg max-sm:px-[1rem] p-2 w-full flex flex-col sm:items-center sm:flex-row gap-4 sm:max-w-[1100px] sm:justify-center shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0px_16px_56px_rgba(17,17,26,0.1)]"
           id="meme"
           data-aos="fade-up"
           data-aos-anchor-placement="top-bottom"
@@ -33,7 +33,7 @@ const SecondPage = () => {
               Nhà gái
             </div>
             <div className="flex justify-center text-[26px] mt-3 text-font-base">
-              17h - 19/11/2024
+              17h thứ Ba - 19/11/2024
             </div>
             <div className="flex justify-center text-[28px] mt-2 font-medium text-font-base">
               Nhà hàng Ngọc Anh

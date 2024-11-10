@@ -34,7 +34,7 @@ const SecondPageFun = () => {
                 Đêm ca nhạc
               </div>
               <div className="flex justify-center text-[26px] mt-3 text-font-base">
-                19h - 18/11/2024
+                19h thứ Hai - 18/11/2024
               </div>
               <div className="flex justify-center text-[28px] mt-2 font-medium text-font-base">
                 Tại tư gia nhà gái
@@ -65,7 +65,7 @@ const SecondPageFun = () => {
                 Lễ ăn hỏi & đón dâu
               </div>
               <div className="text-[26px] mt-3 text-font-base">
-                8h15p - 19/11/2024
+                8h15p thứ Ba - 19/11/2024
               </div>
               <div className="text-[28px] mt-2 font-medium text-font-base">
                 Tại tư gia nhà gái
@@ -104,12 +104,78 @@ const SecondPageFun = () => {
               className="object-cover h-[400px]"
             />
             <div className="flex flex-col items-center">
-              <div className="font-bold text-[40px] max-sm:mt-4">Tiệc cưới</div>
+              <div className="font-bold text-[40px] max-sm:mt-4">Tiệc ăn hỏi</div>
               <div className="text-[26px] mt-3 text-font-base">
-                17h - 19/11/2024
+                17h thứ Ba - 19/11/2024
               </div>
               <div className="text-[28px] mt-2 font-medium text-font-base">
-                Nhà hàng Ngọc Anh
+                Tại Nhà hàng Ngọc Anh
+              </div>
+              <div className="mt-1">
+                <Link
+                  href="https://maps.app.goo.gl/TCFwVopGhHyS8dAw5"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  className="btn-primary w-[200px] text-white"
+                >
+                  Google Maps
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="flex justify-center">
+          <div className="sm:grid sm:grid-cols-2 sm:items-center max-sm:flex max-sm:flex-col-reverse">
+            <div>
+              <div className="flex justify-center font-bold text-[40px] max-sm:mt-4">
+                Tiệc trà
+              </div>
+              <div className="flex justify-center text-[26px] mt-3 text-font-base">
+                19h thứ Ba - 19/11/2024
+              </div>
+              <div className="flex justify-center text-[28px] mt-2 font-medium text-font-base">
+                Tại tư gia nhà gái
+              </div>
+              <div className=" flex justify-center">
+                <Link
+                  href="https://maps.app.goo.gl/jhq51hbJryKzA1Hd6"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  className="btn-primary w-[200px] text-white"
+                >
+                  Google Maps
+                </Link>
+              </div>
+            </div>
+            <Image
+              src="/assets/images/chew/set6.jpg"
+              alt="Picture of the author"
+              quality={100}
+              width={500}
+              height={500}
+              loading="lazy"
+              className="object-cover h-[400px]"
+            />
+          </div>
+        </div>
+        <div className="flex justify-center">
+          <div className="sm:grid sm:grid-cols-2 sm:items-center max-sm:flex max-sm:flex-col">
+            <Image
+              src="/assets/images/chew/set4.jpg"
+              alt="Picture of the author"
+              quality={100}
+              width={500}
+              height={500}
+              loading="lazy"
+              className="object-cover h-[400px]"
+            />
+            <div className="flex flex-col items-center">
+              <div className="font-bold text-[40px] max-sm:mt-4">Tiệc cưới</div>
+              <div className="text-[26px] mt-3 text-font-base">
+                11h thứ Tư - 20/11/2024
+              </div>
+              <div className="text-[28px] mt-2 font-medium text-font-base">
+                Tại Nhà hàng Ngọc Anh
               </div>
               <div className="mt-1">
                 <Link
@@ -127,50 +193,9 @@ const SecondPageFun = () => {
         <div className="flex justify-center">
           <div className="sm:grid sm:grid-cols-2 sm:items-center max-sm:flex max-sm:flex-col-reverse">
             <div className="flex flex-col items-center">
-              <div className="font-bold text-[40px] max-sm:mt-4">Tiệc cưới</div>
-              <div className="text-[26px] mt-3 text-font-base">
-                11h - 20/11/2024
-              </div>
-              <div className="text-[28px] mt-2 font-medium text-font-base">
-                Tại Nhà hàng Ngọc Anh
-              </div>
-              <div className="mt-1">
-                <Link
-                  href="https://maps.app.goo.gl/TCFwVopGhHyS8dAw5"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                  className="btn-primary w-[200px] text-white"
-                >
-                  Google Maps
-                </Link>
-              </div>
-            </div>
-            <Image
-              src="/assets/images/chew/set4.jpg"
-              alt="Picture of the author"
-              quality={100}
-              width={500}
-              height={500}
-              loading="lazy"
-              className="object-cover h-[400px]"
-            />
-          </div>
-        </div>
-        <div className="flex justify-center">
-          <div className="sm:grid sm:grid-cols-2 sm:items-center max-sm:flex max-sm:flex-col">
-            <Image
-              src="/assets/images/chew/set5.jpg"
-              alt="Picture of the author"
-              quality={100}
-              width={500}
-              height={500}
-              loading="lazy"
-              className="object-cover h-[400px]"
-            />
-            <div className="flex flex-col items-center">
               <div className="font-bold text-[40px] max-sm:mt-4">Lễ vu quy</div>
               <div className="text-[26px] mt-3 text-font-base">
-                15h15p - 20/11/2024
+                15h15p thứ Tư - 20/11/2024
               </div>
               <div className="text-[28px] mt-2 font-medium text-font-base">
                 Tại tư gia nhà gái
@@ -186,6 +211,15 @@ const SecondPageFun = () => {
                 </Link>
               </div>
             </div>
+            <Image
+              src="/assets/images/chew/set5.jpg"
+              alt="Picture of the author"
+              quality={100}
+              width={500}
+              height={500}
+              loading="lazy"
+              className="object-cover h-[400px]"
+            />
           </div>
         </div>
       </div>

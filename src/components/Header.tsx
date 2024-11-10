@@ -17,38 +17,36 @@ const Header = () => {
       link: "#daure",
     },
     {
-      id: 2,
-      name: "Ảnh cưới",
-      link: "#anhcuoi",
-    },
-    {
       id: 3,
       name: "Tiệc cưới",
       link: "#diadiem",
     },
     {
-      id: 4,
-      name: "Chúc mừng",
-      link: "#chucmung",
+      id: 2,
+      name: "Ảnh cưới",
+      link: "#anhcuoi",
     },
   ];
   return (
     <footer className="absolute backdrop-blur-md flex justify-between sm:px-[7rem] py-[12px] w-full items-center z-[10] max-sm:px-[16px]">
       <div className="flex flex-col sm:items-center">
         <a href="/" rel="noopener noreferrer">
-          <Image
+          {/* <Image
             src="/assets/images/chew/logo.png"
             alt="err"
             width={60}
             height={61}
             className="rounded-full"
-          />
+          /> */}
+          <div className="text-white flex text-[24px]">
+            T <div className="ml-2">❤︎</div> K
+          </div>
         </a>
       </div>
       <ul
         className={`${
           !showMenu && "max-sm:hidden"
-        } flex max-sm:flex-col gap-[13px] sm:gap-[1rem] 2xl:gap-[5rem] max-sm:absolute max-sm:top-0 max-sm:gap-[2rem] max-sm:mt-[4rem] max-sm:bg-[rgba(0,0,0,0.80)] max-sm:h-screen max-sm:w-full max-sm:left-0 max-sm:items-center max-sm:py-[1.5rem]`}
+        } flex max-sm:flex-col gap-[13px] sm:gap-[1rem] 2xl:gap-[5rem] max-sm:absolute max-sm:top-0 max-sm:gap-[2rem] max-sm:mt-[3.5rem] max-sm:bg-[rgba(0,0,0,0.60)] max-sm:h-screen max-sm:w-full max-sm:left-0 max-sm:items-center max-sm:py-[1.5rem]`}
       >
         {linkList.map((item) => (
           <li
