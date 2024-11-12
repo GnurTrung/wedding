@@ -18,7 +18,7 @@ const SecondPageDay19Spe = () => {
         đến tham gia bữa tiệc
       </div>
       <div className="flex justify-center text-[28px]">
-        chung vui cùng gia đình em
+        chung vui cùng gia đình chúng em
       </div>
       <div className="flex justify-center items-center mt-2">
         <div
@@ -63,7 +63,7 @@ const SecondPageDay19Spe = () => {
         Sự hiện diện của cô
       </div>
       <div className="flex justify-center text-[28px] mb-8">
-        là niềm vinh hạnh cho gia đình em
+        là niềm vinh hạnh cho gia đình chúng em
       </div>
     </section>
   );
