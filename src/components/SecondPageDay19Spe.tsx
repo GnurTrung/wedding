@@ -1,6 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-import Link from "next/link";
 
 const SecondPageDay19Spe = () => {
   return (
@@ -12,7 +11,7 @@ const SecondPageDay19Spe = () => {
       />
       <div className="flex justify-center text-[64px] pt-20">Tiệc cưới</div>
       <div className="flex justify-center text-[28px] pt-5">
-        Trân trọng kính mời cô
+        Trân trọng kính mời Cô
       </div>
       <div className="flex justify-center text-[28px]">
         đến tham gia bữa tiệc
