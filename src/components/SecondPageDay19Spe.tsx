@@ -59,7 +59,7 @@ const SecondPageDay19Spe = () => {
         </div>
       </div>
       <div className="flex justify-center text-[28px] mt-5">
-        Sự hiện diện của cô
+        Sự hiện diện của Cô
       </div>
       <div className="flex justify-center text-[28px] mb-8">
         là niềm vinh hạnh cho gia đình chúng em
